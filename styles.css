@@ -1,8 +1,19 @@
+main {
+    text-align: center;
+}
 #container {
-    border: 10px black;
+    text-align: center;
+    background: 10px lightblue;
+    padding: 20px;
+    
 }
 
-#inner-box {
-    text-align: center;
-    background-color: black;
+ul {
+    color: black;
+    display: inline;
+    padding: 50px;
+}
+
+h1 {
+    color: black;
 }
