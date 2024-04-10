@@ -1,19 +1,55 @@
+
 main {
     text-align: center;
 }
-#container {
-    text-align: center;
-    background: 10px lightblue;
-    padding: 20px;
-    
+
+#main-container {
+    flex-direction: column;
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+}
+
+#content-container {
+    margin: 20px;
+    padding: 50px;
+    border: 0px;
+    background-color: aquamarine;
+    flex-direction: column;
 }
 
 ul {
     color: black;
     display: inline;
-    padding: 50px;
+    text-size-adjust: auto;
+    font-size: 25px;
 }
 
 h1 {
     color: black;
+    font-size: 50px;
+    text-align: right;
+    display: inline;
+    padding: 50px;
 }
+
+footer {
+    text-align: center;
+}
+
+nav {
+    flex-direction: column;
+    text-align: right;
+    padding: 20px;
+    background-color: white;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    align-items: left;
+    display: inline;
+}
+
+/* In order to put side by side you should make containers for both the image and header */
